@@ -25,7 +25,7 @@ public class ServiceStudentTest {
     }
 
     @Test(expected = ValidationException.class)
-    public void addStudent_ThrowsValidationException()
+    public void addStudent_ThrowsValidationExceptionTest()
     {
         StudentValidator sv = new StudentValidator();
         StudentRepo sr = new StudentRepo(sv, "src/main/java/MaxPointsParticipantsMV/studenti_test.xml");
