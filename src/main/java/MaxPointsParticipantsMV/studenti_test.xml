@@ -18,6 +18,42 @@
         <mail>riie2411@scs.ubbcluj.ro</mail>
         <profesor>Andreea Vescan</profesor>
     </Student>
+    <Student idStudent="14">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="15">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="16">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="17">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="18">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="19">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
     <Student idStudent="1">
         <nume>Rusu Iustin</nume>
         <grupa>936</grupa>
@@ -67,6 +103,12 @@
         <profesor>Andreea Vescan</profesor>
     </Student>
     <Student idStudent="9">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="20">
         <nume>Rusu Iustin</nume>
         <grupa>936</grupa>
         <mail>riie2411@scs.ubbcluj.ro</mail>

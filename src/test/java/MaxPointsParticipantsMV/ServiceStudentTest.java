@@ -18,7 +18,14 @@ public class ServiceStudentTest {
 
         Student student1 = new Student(String.valueOf(oldSize + 1), "Rusu Iustin", 936, "riie2411@scs.ubbcluj.ro", "Andreea Vescan");
 
-        assert(ss.add(student1).equals(student1));
+        Student result = ss.add(student1);
+
+        if(result != null){
+            assert(ss.add(student1).equals(student1));
+        }
+        else{
+            assert(false);
+        }
     }
 
     @Test
@@ -34,7 +41,8 @@ public class ServiceStudentTest {
         Student student2 = new Student(String.valueOf(oldSize + 1), "Serbanescu Adrian", 936, "saie2417@scs.ubbcluj.ro", "Andreea Vescan");
 
         ss.add(student1);
+        Student result = ss.add(student2);
 
-        assert(ss.add(student2) == null);
+        assert(result == null);
     }
 }
