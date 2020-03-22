@@ -21,7 +21,7 @@ public class ServiceStudentTest {
         Student result = ss.add(student1);
 
         if(result != null){
-            assert(ss.add(student1).equals(student1));
+            assert(result.equals(student1));
         }
         else{
             assert(false);

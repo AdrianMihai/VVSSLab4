@@ -20,12 +20,20 @@ public abstract class AbstractRepo <E extends hasID<ID>,ID> implements CrudRepo<
      * @param el
      * @return elementul salvat
      */
-    public E save(E el){
-        String msg=validator.validate(el);
-        if(msg.equals("")){
-            E el2=findOne(el.getID());
-            repo.putIfAbsent(el.getID(),el);
-            return el2;
+    public E save(E el)
+    {
+        String msg = validator.validate(el);
+
+        if(msg.equals(""))
+        {
+            E previousElem = repo.putIfAbsent(el.getID(), el);
+
+            if(previousElem == null){
+                return el;
+            }
+            else{
+                return null;
+            }
         }
         else throw new ValidationException(msg);
     }

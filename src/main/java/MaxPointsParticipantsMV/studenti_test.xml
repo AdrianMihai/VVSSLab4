@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inbox>
+    <Student idStudent="22">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="23">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="24">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="25">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="26">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="27">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="28">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="29">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="30">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="10">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
     <Student idStudent="11">
         <nume>Rusu Iustin</nume>
         <grupa>936</grupa>
@@ -114,7 +174,7 @@
         <mail>riie2411@scs.ubbcluj.ro</mail>
         <profesor>Andreea Vescan</profesor>
     </Student>
-    <Student idStudent="10">
+    <Student idStudent="21">
         <nume>Rusu Iustin</nume>
         <grupa>936</grupa>
         <mail>riie2411@scs.ubbcluj.ro</mail>
