@@ -4,12 +4,11 @@ import MaxPointsParticipantsMV.Domain.Student;
 import MaxPointsParticipantsMV.Repository.StudentRepo;
 import MaxPointsParticipantsMV.Service.ServiceStudent;
 import MaxPointsParticipantsMV.Validator.StudentValidator;
-import MaxPointsParticipantsMV.Validator.ValidationException;
 import org.junit.Test;
 
 public class ServiceStudentTest {
     @Test
-    public void addStudent_addSuccessfulTest()
+    public void addStudent_success()
     {
         StudentValidator sv = new StudentValidator();
         StudentRepo sr = new StudentRepo(sv, "src/main/java/MaxPointsParticipantsMV/studenti_test.xml");
@@ -18,14 +17,12 @@ public class ServiceStudentTest {
         int oldSize = sr.size();
 
         Student student1 = new Student(String.valueOf(oldSize + 1), "Rusu Iustin", 936, "riie2411@scs.ubbcluj.ro", "Andreea Vescan");
-        ss.add(student1);
 
-        assert(sr.size() == oldSize + 1);
-        assert(sr.findOne("1").getNume().equals("Rusu Iustin"));
+        assert(ss.add(student1).equals(student1));
     }
 
-    @Test(expected = ValidationException.class)
-    public void addStudent_throwsValidationExceptionTest()
+    @Test
+    public void addStudent_fail_idNotUnique_throwsValidationException()
     {
         StudentValidator sv = new StudentValidator();
         StudentRepo sr = new StudentRepo(sv, "src/main/java/MaxPointsParticipantsMV/studenti_test.xml");
@@ -33,8 +30,11 @@ public class ServiceStudentTest {
 
         int oldSize = sr.size();
 
-        Student student1 = new Student(String.valueOf(oldSize + 1), "Rusu Iustin", 400, "riie2411@scs.ubbcluj.ro", "Andreea Vescan");
+        Student student1 = new Student(String.valueOf(oldSize + 1), "Rusu Iustin", 936, "riie2411@scs.ubbcluj.ro", "Andreea Vescan");
+        Student student2 = new Student(String.valueOf(oldSize + 1), "Serbanescu Adrian", 936, "saie2417@scs.ubbcluj.ro", "Andreea Vescan");
 
         ss.add(student1);
+
+        assert(ss.add(student2) == null);
     }
 }
