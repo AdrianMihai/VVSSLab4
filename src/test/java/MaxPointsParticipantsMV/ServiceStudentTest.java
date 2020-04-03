@@ -1,4 +1,3 @@
-/*
 package MaxPointsParticipantsMV;
 
 import MaxPointsParticipantsMV.Domain.Student;
@@ -47,4 +46,3 @@ public class ServiceStudentTest {
         assert(result == null);
     }
 }
-*/
