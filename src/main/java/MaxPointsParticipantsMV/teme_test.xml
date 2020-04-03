@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Teme>
+    <Tema nr="1">
+        <descriere>Tema 1</descriere>
+        <deadline>11</deadline>
+        <sapt_primire>10</sapt_primire>
+    </Tema>
+    <Tema nr="2">
+        <descriere>Tema 1</descriere>
+        <deadline>11</deadline>
+        <sapt_primire>10</sapt_primire>
+    </Tema>
+    <Tema nr="3">
+        <descriere>Tema 1</descriere>
+        <deadline>11</deadline>
+        <sapt_primire>10</sapt_primire>
+    </Tema>
+    <Tema nr="4">
+        <descriere>Tema 1</descriere>
+        <deadline>11</deadline>
+        <sapt_primire>10</sapt_primire>
+    </Tema>
+    <Tema nr="5">
+        <descriere>Tema 1</descriere>
+        <deadline>11</deadline>
+        <sapt_primire>10</sapt_primire>
+    </Tema>
+</Teme>

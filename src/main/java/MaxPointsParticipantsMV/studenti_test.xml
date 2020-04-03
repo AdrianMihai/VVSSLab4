@@ -54,7 +54,19 @@
         <mail>riie2411@scs.ubbcluj.ro</mail>
         <profesor>Andreea Vescan</profesor>
     </Student>
+    <Student idStudent="31">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
     <Student idStudent="10">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="32">
         <nume>Rusu Iustin</nume>
         <grupa>936</grupa>
         <mail>riie2411@scs.ubbcluj.ro</mail>
@@ -66,7 +78,19 @@
         <mail>riie2411@scs.ubbcluj.ro</mail>
         <profesor>Andreea Vescan</profesor>
     </Student>
+    <Student idStudent="33">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
     <Student idStudent="12">
+        <nume>Rusu Iustin</nume>
+        <grupa>936</grupa>
+        <mail>riie2411@scs.ubbcluj.ro</mail>
+        <profesor>Andreea Vescan</profesor>
+    </Student>
+    <Student idStudent="34">
         <nume>Rusu Iustin</nume>
         <grupa>936</grupa>
         <mail>riie2411@scs.ubbcluj.ro</mail>
