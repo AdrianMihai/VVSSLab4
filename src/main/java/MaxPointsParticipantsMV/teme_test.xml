@@ -40,4 +40,14 @@
         <deadline>2</deadline>
         <sapt_primire>1</sapt_primire>
     </Tema>
+    <Tema nr="9">
+        <descriere>Assignment</descriere>
+        <deadline>2</deadline>
+        <sapt_primire>1</sapt_primire>
+    </Tema>
+    <Tema nr="10">
+        <descriere>Assignment</descriere>
+        <deadline>2</deadline>
+        <sapt_primire>1</sapt_primire>
+    </Tema>
 </Teme>
