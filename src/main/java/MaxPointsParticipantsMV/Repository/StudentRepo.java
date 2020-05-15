@@ -16,17 +16,17 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 
-import static javax.xml.xpath.XPathFactory.newInstance;
-
 public class StudentRepo extends AbstractRepo<Student,String> {
     private String fName;
     private DocumentBuilderFactory builderFactory;
-    public StudentRepo(Validator<Student> val, String n){
+
+    public StudentRepo(Validator<Student> val, String n) {
         super(val);
-        this.fName=n;
-        builderFactory=DocumentBuilderFactory.newInstance();
+        this.fName = n;
+        builderFactory = DocumentBuilderFactory.newInstance();
         loadFromFile();
     }
+
     public void loadFromFile(){
         try{
             DocumentBuilder db=builderFactory.newDocumentBuilder();
@@ -90,12 +90,14 @@ public class StudentRepo extends AbstractRepo<Student,String> {
         }
         catch (Exception e){e.printStackTrace();}
     }
+
     @Override
     public Student save(Student el) {
         Student t= super.save(el);
         writeToFile();
         return t;
     }
+
     @Override
     public Student delete(String id){
         Student t=super.delete(id);
